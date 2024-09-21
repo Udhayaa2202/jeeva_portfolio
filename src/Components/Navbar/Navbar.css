@@ -43,3 +43,12 @@
     text-decoration: none;
     color: white;
 }
+
+@media(max-width: 768px) {
+    .navbar{
+        margin: 20px 50px;
+    }
+    .nav-connect {
+        display: none;
+    }
+}

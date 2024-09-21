@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <img src={logo} alt="" /> {/*this is a comment*/}
+      <img src={logo} alt="" /> {/*the logo to be changed here*/}
       <ul className='nav-menu'>
         <li><AnchorLink className='anchor-link' href='#home'><p onClick={() => setMenu("home")}>Home</p></AnchorLink>{menu == "home" ? <img src={underline} alt='' /> : <></>}</li>
         <li><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={() => setMenu("about")}>About Me</p></AnchorLink>{menu == "about" ? <img src={underline} alt='' /> : <></>}</li>
