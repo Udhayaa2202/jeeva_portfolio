@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import footer_logo from '../../assets/footer_logo.svg'
+import theme_pattern from '../../assets/theme_pattern.svg'
 import user_icon from '../../assets/user_icon.svg'
 import angle_up_solid_1 from '../../assets/angle_up_solid_1.svg'
 
@@ -9,7 +9,7 @@ const Footer = () => {
         <div className='footer'>
             <div className="footer-top">
                 <div className="footer-top-left">
-                    <img src={footer_logo} alt="" />
+                  <h1>My Portfolio</h1>  
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptate animi delectus deleniti officia obcaecati nobis esse sunt praesentium est enim, id quos voluptatibus iure temporibus debitis eveniet sequi impedit.</p>
                 </div>
                 <div className="footer-top-right">

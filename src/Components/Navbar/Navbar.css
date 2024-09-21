@@ -5,12 +5,22 @@
     margin: 20px 170px;
 }
 
+.navbar h1{
+    font-size: 50px;
+    user-select: none;
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .nav-menu {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 60px;
     font-size: 20px;
+    user-select: none;
 }
 
 .nav-connect{

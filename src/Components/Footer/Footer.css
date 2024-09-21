@@ -10,6 +10,14 @@
     justify-content: space-between;
 }
 
+.footer-top-left h1 {
+    font-size: 40px;
+    background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .footer-top-left p {
     font-size: 20px;
     max-width: 400px;
