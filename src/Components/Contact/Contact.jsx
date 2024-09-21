@@ -6,6 +6,8 @@ import location_icon from '../../assets/location_icon.svg'
 import call_icon from '../../assets/call_icon.svg'
 
 const Contact = () => {
+
+
     return (
         <div id='contact' className='contact'>
             <div className="contact-title">
@@ -28,11 +30,11 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <form className="contact-right">
+                <form onSubmit={onSubmit} className="contact-right">
                     <label htmlFor="">Your Name</label>
-                    <input type="text" placeholder='Enter your name' name='name'/>               
+                    <input type="text" placeholder='Enter your name' name='name' />
                     <label htmlFor="">Your Email</label>
-                    <input type="email" placeholder='Enter your email' name='email'/>
+                    <input type="email" placeholder='Enter your email' name='email' />
                     <label htmlFor="">Write your message here</label>
                     <textarea name="message" rows="8" placeholder='Enter your message here...'></textarea>
                     <button type='submit' className='contact-submit'>Submit Now</button>
