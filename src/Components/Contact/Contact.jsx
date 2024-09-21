@@ -11,7 +11,8 @@ const Contact = () => {
         event.preventDefault();
         const formData = new FormData(event.target);
 
-        formData.append("access_key", "cd6e7460-708d-4692-9b93-5fb9cf574614"); {/*this is to be changed*/}
+        formData.append("access_key", process.env.REACT_APP_API_KEY); {/*Your Key goes here*/ }
+
 
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);

@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
             <hr />
             <div className="footer-bottom">
-                <p className='footer-bottom-left'>&copy; 2024 Udhayaa V D. All Rights Reserved</p>
+                <p className='footer-bottom-left'>&copy; 2024 Udhayaa. All Rights Reserved</p>
                 <div className="footer-bottom-right">
                     <p>Terms of Services</p>
                     <p>Privacy Policy</p>
