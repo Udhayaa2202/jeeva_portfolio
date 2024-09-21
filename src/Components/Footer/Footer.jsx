@@ -2,6 +2,7 @@ import React from 'react'
 import './Footer.css'
 import footer_logo from '../../assets/footer_logo.svg'
 import user_icon from '../../assets/user_icon.svg'
+import angle_up_solid_1 from '../../assets/angle_up_solid_1.svg'
 
 const Footer = () => {
     return (
@@ -14,7 +15,7 @@ const Footer = () => {
                 <div className="footer-top-right">
                     <div className="footer-email-input">
                         <img src={user_icon} alt="" />
-                        <input type="email" placeholder='Enter your email'/>
+                        <input type="email" placeholder='Enter your email' />
                     </div>
                     <div className="footer-subscribe">Subscribe</div>
                 </div>
@@ -26,6 +27,9 @@ const Footer = () => {
                     <p>Terms of Services</p>
                     <p>Privacy Policy</p>
                     <p>Connect with me</p>
+                    <div class="footer-iconTop" onClick={() => window.scrollTo({top: 0, behavior:'smooth'})}>
+                        <img src={angle_up_solid_1} alt="" />
+                    </div>
                 </div>
             </div>
         </div>
