@@ -9,15 +9,15 @@ import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
-    <div>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Services/>
-      <MyWork/>
-      <Contact/>
-      <Footer/>
-    </div>
+      <div className='App'>
+        <Hero/>
+        <About/>
+        <Services/>
+        <MyWork/>
+        <Contact/>
+        <Footer/>
+      </div>
+    
   )
 }
 
