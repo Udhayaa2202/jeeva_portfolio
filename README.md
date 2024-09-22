@@ -20,9 +20,9 @@ npm install
 ```
 ### Run the project
 ```bash
-npm start
+npm run dev
 ```
-The project should automatically open in your default web browser. If not, navigate to http://localhost:3000 in your browser to view the project.
+Navigate to http://localhost:5173 in your browser to view the project.
 
 ## 🐞 Issues and Feedback
 
