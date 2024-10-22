@@ -8,7 +8,8 @@ import project6_img from '../assets/project_6.svg'
 const mywork_data = [
     {
         w_no:1,
-        w_name:"Web design",
+        w_name:"DWM Rice",
+        link:'https://github.com/jeevithakannan2/my-dwm',
         w_img:project1_img
     },
     {

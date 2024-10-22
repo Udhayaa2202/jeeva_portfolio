@@ -45,6 +45,42 @@
     transition: 0.3s;
 }
 
+.mywork-item {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .mywork-item img {
+    width: 100%; 
+    height: auto;
+  }
+  
+  .mywork-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    font-size: 1.5em;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+  }
+  
+  .mywork-item:hover .mywork-overlay {
+    opacity: 1; 
+  }
+
+  .mywork-overlay a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none; 
+  }
+  
 .mywork-showmore {
     display: flex;
     gap: 15px;
