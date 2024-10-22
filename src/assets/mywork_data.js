@@ -14,7 +14,8 @@ const mywork_data = [
     },
     {
         w_no:2,
-        w_name:"Web design",
+        w_name:"EV Booking",
+        link:'https://github.com/Udhayaa2202/evbooking',
         w_img:project2_img
     },
     {
