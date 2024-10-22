@@ -44,10 +44,10 @@ const Contact = () => {
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem nihil natus libero, quaerat enim obcaecati nostrum quae illum, alias a optio ab laboriosam, quod iste nesciunt cupiditate harum? Perferendis, ducimus.</p>
                     <div className="contact-details">
                         <div className="contact-detail">
-                            <img src={mail_icon} alt="" /><p>jeevithakannan@gmail.com</p>
+                            <img src={mail_icon} alt="" /><p>ksjeevithakannan@gmail.com</p>
                         </div>
                         <div className="contact-detail">
-                            <img src={call_icon} alt="" /> <p>+91-86675-10219</p>
+                            <img src={call_icon} alt="" /> <p>+91 86675-10219</p>
                         </div>
                         <div className="contact-detail">
                             <img src={location_icon} alt="" /> <p>BIT, Sathy, Erode</p>
