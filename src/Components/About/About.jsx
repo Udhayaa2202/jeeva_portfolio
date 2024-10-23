@@ -16,11 +16,11 @@ const About = () => {
         </div>
         <div className="about-right">
             <div className="about-para">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, sequi? Cum ut rerum doloremque autem iusto veniam, nesciunt, eveniet sit distinctio voluptatem ducimus! Eligendi in repellendus enim dicta nihil soluta.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nesciunt accusamus iusto temporibus repellendus magnam, ullam error natus unde! Quo enim fuga hic accusamus aut ducimus molestiae autem molestias sapiente!</p>
+                <p>I am an engineering student with a passion for technology and problem solving. I am a self driven individual who loves to work on new and challenging projects</p>
+                <p>Learn More knowledge by solving errors. Error solving makes me to learn more things in depth.</p>
             </div>
             <div className="about-skills">
-                <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"55%"}} /></div>
+                <div className="about-skill"><p>C</p><hr style={{width:"55%"}} /></div>
                 <div className="about-skill"><p>Python</p><hr style={{width:"80%"}} /></div>
                 <div className="about-skill"><p>Rust</p><hr style={{width:"70%"}} /></div>
                 <div className="about-skill"><p>Java</p><hr style={{width:"60%"}} /></div>
